@@ -1,0 +1,178 @@
+[gd_scene load_steps=3 format=3 uid="uid://2ta3f66w7r7n"]
+
+[ext_resource type="Script" path="res://scenes/tool.gd" id="1_bjo5d"]
+[ext_resource type="Texture2D" uid="uid://cgrrwjw337drk" path="res://icon.svg" id="1_pxlrd"]
+
+[node name="Tool" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bjo5d")
+
+[node name="CurrentView" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CurrentView"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CurrentView/ScrollContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CurrentView/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect2" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect3" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect4" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect5" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect6" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect7" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="CurrentView/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect2" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect3" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect4" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect5" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect6" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect7" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="CurrentView/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect2" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect3" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect4" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect5" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect6" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect7" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="CurrentView/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect2" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect3" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect4" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect5" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect6" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="TextureRect7" type="TextureRect" parent="CurrentView/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("1_pxlrd")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -8.0
+grow_horizontal = 2
+grow_vertical = 0
+columns = 3
+
+[node name="HomeBtn" type="TextureButton" parent="GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_pxlrd")
+
+[node name="ShowBtn" type="TextureButton" parent="GridContainer"]
+layout_mode = 2
+
+[node name="SettingsBtn" type="TextureButton" parent="GridContainer"]
+layout_mode = 2

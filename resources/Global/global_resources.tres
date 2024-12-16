@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="GlobalResource" load_steps=2 format=3 uid="uid://dawmwx4ov0eoe"]
+
+[ext_resource type="Script" path="res://scripts/global_resource_matrix.gd" id="1_32l3r"]
+
+[resource]
+script = ExtResource("1_32l3r")
+counter = 0

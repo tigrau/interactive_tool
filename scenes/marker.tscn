@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpoolysjg0lgi"]
+
+[ext_resource type="Script" path="res://scenes/marker.gd" id="1_5dpue"]
+[ext_resource type="Texture2D" uid="uid://cgrrwjw337drk" path="res://icon.svg" id="2_0buhw"]
+
+[node name="Marker" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_5dpue")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LineEdit" type="LineEdit" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 67.0625
+offset_bottom = 31.0
+text = "ТестТестТест"
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 38
+text = "ТестТестТест"
+
+[node name="ArmBtm" type="TextureButton" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("2_0buhw")
